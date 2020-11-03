@@ -17,7 +17,7 @@ with open('requirements.txt', 'r') as f:
         if not line.startswith('#'):
             requires.append(line)
 
-with io.open("src/mnist_pl/__init__.py", "rt", encoding="utf8") as f:
+with io.open("src/interhand/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = \'(.*?)\'', f.read()).group(1)
 
 setup(
@@ -27,7 +27,7 @@ setup(
     long_description=readme,
     author='user',
     author_email='duino472365351@gmail.com',
-    url='https://github.com/user/mnist_pl',
+    url='https://github.com/duinodu/InterHand2.6M.pl',
     license=license,
     platform='linux',
     zip_safe=False,
@@ -36,5 +36,4 @@ setup(
     include_package_data=True,
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
     install_requires=requires,
-    entry_points={"console_scripts": ["mnist_pl = mnist_pl.cli:main"]},
 )
