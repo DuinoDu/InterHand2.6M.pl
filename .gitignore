@@ -92,3 +92,7 @@ ENV/
 
 *.swo
 *.swp
+
+MNIST
+lightning_logs
+data
