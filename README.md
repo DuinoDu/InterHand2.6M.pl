@@ -1,6 +1,6 @@
 # Interhand2.6M baseline project using pytorch-lightning
 
-It's a demo project showing how to use pytorch-lightning to construct machine learning project.
+It's a demo project showing how to use [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to construct machine learning project.
 
 I love pytorch-lightning.
 
